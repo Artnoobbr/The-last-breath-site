@@ -1,0 +1,123 @@
+body {
+    background-color:black;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    height: 300px;
+    background-color: black;
+    background-image: url('/images/RiseOfOmniWarriors.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px 40px 80px 50px;
+}
+section.Sus {
+    background-color: white;
+    color: grey;
+    padding: 31px;
+    display: flex;
+    flex-direction: row;
+}
+section.Sus.Personagens div {
+    background-color: white;
+    color: green;
+    font-size: x-large;
+    margin-top: -25px;
+    margin-bottom: -20px;
+}
+footer.Logo {
+    background-color: black;
+    color: grey;
+    padding: 2px 15px;
+    text-align: center;
+}
+
+footer.Logo img {
+    width: 250px;
+}
+
+div {
+    background:black;
+    display: inline;
+    margin: auto;
+    width: 20px 20px;
+}
+ul.Coisas {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.Coisas li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.Coisas li a {
+    padding: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+.Coisas li a:hover{
+    border-radius: 5px;
+    padding: 2px;
+    background-color: grey;
+    background: rgba(250, 250, 250, 0.205) /* Esse aqui faz que a opacidade afete APENAS o fundo e não o texto */
+}
+section.Imagem.personagens {
+    background-color: white;
+    color: red;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+section.Imagem.personagens figure figcaption h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 14px;
+    text-decoration: underline;
+}
+section.Imagem.personagens figure figcaption h3{
+    color: grey;
+    text-align:center;
+    margin-bottom: 10px;
+}
+section.Imagem.personagens figure figcaption h3 em{
+    color: grey;
+    text-align:center;
+    margin-bottom: 10px;
+    opacity: 65%;
+}
+section.Imagem.personagens figure img{
+    border-radius: 10px;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+/* Regras Responsive Mobile */
+@media screen and (min-width: 360px) and (max-width: 740px) {
+
+    section.Imagem.personagens figure img.Freeze{
+        width: 250px;
+    }
+
+    section.Imagem.personagens figure img.Augstin {
+        width: 275px;
+    }
+
+    section.Imagem.personagens figure img.B {
+        width: 260px;
+    }
+
+    section.Imagem.personagens figure img.IDK {
+        width: 270px;
+    }
+}
