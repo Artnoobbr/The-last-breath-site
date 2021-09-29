@@ -66,6 +66,7 @@ ul.Coisas {
     margin-right: 20px;
 }
 .Coisas li a {
+    padding: 2px;
     text-decoration: none;
     color: white;
     font-size: x-large
