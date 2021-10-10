@@ -38,15 +38,17 @@ section.Sus.sobre div {
     background-color: white;
     opacity: 65%;
 }
-footer {
+
+footer.copy {
     background-color: black;
+    margin-top: -10px;
+    margin-bottom: -10px;
     color: grey;
-    padding: 5px 20px;
     text-align: center;
 }
 
-footer img {
-    width: 250px;
+.copy p {
+    font-size: 17px;
 }
 
 div {
